@@ -104,7 +104,7 @@ function ChatInput({ chatId }: Props) {
         </form>
       </div>
       {/* ModelSelection */}
-      <div className="py-2">
+      <div className="py-2 md:hidden">
         <ModelSelection></ModelSelection>
       </div>
     </>
