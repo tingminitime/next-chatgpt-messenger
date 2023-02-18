@@ -18,10 +18,17 @@ pnpm install
 
 ### 環境變數說明
 
-請參考 [.env.example]() 檔案。
+請參考 [.env.example](https://github.com/tingminitime/next-chatgpt-messenger/blob/main/.env.example) 檔案。
 
 ```env
-
+GOOGLE_ID= # your Firebase OAuth2 client id 
+GOOGLE_SECRET= # your Firebase OAuth2 client secret key
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET= # your next-auth secret
+FIREBASE_APP_ID= # your Firebase api id
+FIREBASE_API_KEY= # your Firebase api key
+OPENAI_API_KEY= # your OpenAI api key
+FIREBASE_SERVICE_ACCOUNT_KEY= # your Firebase service account key for admin
 ```
 
 ### 運行專案
