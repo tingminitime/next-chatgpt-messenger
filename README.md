@@ -4,7 +4,9 @@
 
 ## 功能
 
-- 
+- Google 登入
+- ChatGPT 對話
+- 可選擇 ChatGPT Model
 
 ## 安裝
 
@@ -40,4 +42,14 @@ pnpm run start
 
 ## 專案技術
 
-- 
+- Next.js 13
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase ( Firestore )
+- NextAuth - Firebase Auth
+- ChatGPT API
+- useSWR
+- react-firebase-hooks
+- react-hot-toast
+- react-select
